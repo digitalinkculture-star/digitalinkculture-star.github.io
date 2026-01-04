@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2024-01-03",
+  "lastUpdated": "2025-01-03",
   "artworks": [
     {
       "id": 1,
-      "artist": "Alex Chen",
-      "title": "Mountain Resonance",
-      "description": "Digital ink painting inspired by traditional Chinese landscape",
-      "filename": "artwork1.jpg",
-      "medium": "Digital Ink",
-      "year": 2024,
-      "category": "digital-ink"
+      "artist": "Angela Luo",
+      "title": "Scream",
+      "description": "Drew in the form of a comic",
+      "filename": "2201767507887_.pic_hd.jpg",
+      "medium": "Ink",
+      "year": 2025,
+      "category": "ink"
     },
     {
       "id": 2,
