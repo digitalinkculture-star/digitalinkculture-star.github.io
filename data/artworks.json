@@ -1,0 +1,25 @@
+{
+  "lastUpdated": "2024-01-03",
+  "artworks": [
+    {
+      "id": 1,
+      "artist": "Alex Chen",
+      "title": "Mountain Resonance",
+      "description": "Digital ink painting inspired by traditional Chinese landscape",
+      "filename": "artwork1.jpg",
+      "medium": "Digital Ink",
+      "year": 2024,
+      "category": "digital-ink"
+    },
+    {
+      "id": 2,
+      "artist": "Maya Rodriguez",
+      "title": "Ancestral Patterns",
+      "description": "Cultural patterns reimagined in vector form",
+      "filename": "artwork2.jpg",
+      "medium": "Vector Illustration",
+      "year": 2023,
+      "category": "cultural-design"
+    }
+  ]
+}
