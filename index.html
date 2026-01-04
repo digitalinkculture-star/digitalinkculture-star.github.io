@@ -1,11 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Digital Ink & Cultural Design Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Ink & Cultural Design Club</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <h1>Welcome to Digital Ink & Cultural Design Club</h1>
-  <p>Here we share articles, photos, and creative projects!</p>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-pen-nib"></i> Digital Ink & Cultural Design Club</h1>
+            <p class="tagline">Where creativity meets technology and culture</p>
+        </header>
+
+        <main>
+            <div class="intro-box">
+                <p>Welcome to our creative community! We are a group of artists, designers, and tech enthusiasts exploring the intersection of <span class="highlight">digital art</span>, <span class="highlight">ink illustration</span>, and <span class="highlight">cultural design</span>.</p>
+                
+                <p>Here we share articles, photos, and creative projects that inspire us. Whether you're a beginner or a professional, there's a place for you in our club.</p>
+                
+                <p>Join us to participate in workshops, collaborative projects, and exhibitions that bridge traditional art forms with modern digital tools.</p>
+                
+                <button class="cta-button" onclick="showJoinMessage()">
+                    <i class="fas fa-users"></i> Join Our Community
+                </button>
+            </div>
+
+            <div class="features">
+                <h2><i class="fas fa-star"></i> What We Offer</h2>
+                <div class="feature-grid">
+                    <div class="feature">
+                        <i class="fas fa-paint-brush fa-2x"></i>
+                        <h3>Workshops</h3>
+                        <p>Regular sessions on digital drawing, ink techniques, and design software.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-project-diagram fa-2x"></i>
+                        <h3>Projects</h3>
+                        <p>Collaborative art projects and cultural design initiatives.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-camera fa-2x"></i>
+                        <h3>Gallery</h3>
+                        <p>Showcase of member artworks and creative experiments.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2023 Digital Ink & Cultural Design Club. All rights reserved.</p>
+            <p>Website: https://digitalinkculture-star.github.io | Contact: club@example.com</p>
+            <div class="social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function showJoinMessage() {
+            alert("Welcome! To join our club, please send an email to club@example.com with your introduction. We'll get back to you soon!");
+        }
+    </script>
 </body>
 </html>
