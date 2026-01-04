@@ -1,0 +1,97 @@
+/* style.css - 基础样式 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    min-height: 100vh;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 20px;
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.tagline {
+    font-size: 1.3rem;
+    color: #a0a0c0;
+    margin-bottom: 40px;
+}
+
+.intro-box {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.intro-box p {
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+}
+
+.highlight {
+    color: #00dbde;
+    font-weight: bold;
+}
+
+.cta-button {
+    display: inline-block;
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    margin-top: 60px;
+    color: #888;
+    font-size: 0.9rem;
+    padding: 20px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    h1 { font-size: 2.5rem; }
+    .intro-box { padding: 25px; }
+    .cta-button { padding: 12px 30px; }
+}
