@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Digital Ink & Cultural Design Club</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .page-header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        .page-title {
+            color: #00dbde;
+            margin-bottom: 20px;
+        }
+        
+        .projects-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .project-category {
+            margin: 50px 0;
+        }
+        
+        .category-title {
+            color: #fc00ff;
+            border-bottom: 2px solid rgba(252, 0, 255, 0.3);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        
+        .project-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 25px;
+            transition: all 0.3s;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .project-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .project-icon {
+            font-size: 2.5rem;
+            color: #00dbde;
+            margin-bottom: 15px;
+        }
+        
+        .project-status {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin: 10px 0;
+        }
+        
+        .status-ongoing {
+            background: rgba(0, 219, 222, 0.2);
+            color: #00dbde;
+        }
+        
+        .status-completed {
+            background: rgba(76, 175, 80, 0.2);
+            color: #4caf50;
+        }
+        
+        .status-upcoming {
+            background: rgba(255, 193, 7, 0.2);
+            color: #ffc107;
+        }
+        
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 15px 0;
+        }
+        
+        .tech-tag {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85rem;
+        }
+        
+        .back-home {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin: 50px auto;
+            padding: 12px 30px;
+            background: linear-gradient(90deg, #00dbde, #fc00ff);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+        
+        .back-home:hover {
+            transform: translateX(-10px);
+        }
+        
+        .project-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="page-header">
+            <h1><i class="fas fa-project-diagram"></i> Club Projects</h1>
+            <p class="tagline">Collaborative initiatives blending art, technology and culture</p>
+        </header>
+
+        <main>
+            <div class="projects-container">
+                <!-- 当前项目 -->
+                <section class="project-category">
+                    <h2 class="category-title"><i class="fas fa-spinner"></i> Current Projects</h2>
+                    <div class="project-grid">
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-globe-asia"></i>
+                            </div>
+                            <span class="project-status status-ongoing">Ongoing</span>
+                            <h3>Digital Heritage Archive</h3>
+                            <p>Creating a digital archive of traditional art forms from various cultures, using 3D scanning and VR technology.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">3D Scanning</span>
+                                <span class="tech-tag">VR</span>
+                                <span class="tech-tag">Photogrammetry</span>
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Digital Archive Project" class="project-image">
+                        </div>
+                        
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <span class="project-status status-ongoing">Ongoing</span>
+                            <h3>AI & Traditional Art Fusion</h3>
+                            <p>Exploring how AI tools can collaborate with traditional ink artists to create new hybrid art forms.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">AI Art</span>
+                                <span class="tech-tag">Machine Learning</span>
+                                <span class="tech-tag">Digital Ink</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- 已完成项目 -->
+                <section class="project-category">
+                    <h2 class="category-title"><i class="fas fa-check-circle"></i> Completed Projects</h2>
+                    <div class="project-grid">
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <span class="project-status status-completed">Completed</span>
+                            <h3>Interactive Storybook</h3>
+                            <p>An interactive digital storybook featuring animated ink illustrations and cultural folklore.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Animation</span>
+                                <span class="tech-tag">Storytelling</span>
+                                <span class="tech-tag">UI/UX</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <span class="project-status status-completed">Completed</span>
+                            <h3>Community Mural Project</h3>
+                            <p>A large-scale digital mural created collaboratively by 50+ artists from different backgrounds.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Collaboration</span>
+                                <span class="tech-tag">Digital Painting</span>
+                                <span class="tech-tag">Community</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- 未来项目 -->
+                <section class="project-category">
+                    <h2 class="category-title"><i class="fas fa-calendar-alt"></i> Upcoming Projects</h2>
+                    <div class="project-grid">
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-vr-cardboard"></i>
+                            </div>
+                            <span class="project-status status-upcoming">Coming Soon</span>
+                            <h3>VR Ink Gallery</h3>
+                            <p>A virtual reality gallery showcasing ink art in immersive 3D environments.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Virtual Reality</span>
+                                <span class="tech-tag">3D Modeling</span>
+                                <span class="tech-tag">WebGL</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <div style="text-align: center;">
+                    <a href="index.html" class="back-home">
+                        <i class="fas fa-arrow-left"></i> Return to Homepage
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2023 Digital Ink & Cultural Design Club. All rights reserved.</p>
+            <p>Contact: digitalink.culture@gmail.com | <a href="index.html" style="color:#00dbde;">Home</a></p>
+        </footer>
+    </div>
+</body>
+</html>
