@@ -152,3 +152,51 @@ footer {
 .social a:hover {
     color: #00dbde;
 }
+/* 使功能卡片可点击 */
+.feature-link {
+    text-decoration: none; /* 去掉下划线 */
+    color: inherit; /* 继承文字颜色 */
+    display: block; /* 使链接占满整个卡片 */
+}
+
+/* 增强悬停效果 */
+.feature-link:hover .feature {
+    transform: translateY(-12px);
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 219, 222, 0.3);
+}
+
+/* 点击时的反馈效果 */
+.feature-link:active .feature {
+    transform: translateY(-8px);
+    transition: transform 0.1s;
+}
+
+/* 添加鼠标手型光标 */
+.feature-link {
+    cursor: pointer;
+}
+
+/* 添加一个微妙的指示箭头 */
+.feature-link .feature::after {
+    content: "→";
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #00dbde;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-link:hover .feature::after {
+    opacity: 1;
+    transform: translateX(5px);
+}
+
+/* 为feature添加相对定位以容纳箭头 */
+.feature {
+    position: relative;
+}
