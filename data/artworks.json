@@ -30,6 +30,16 @@
       "medium": "Mixed",
       "year": 2025,
       "category": "digital-ink"
+    },
+    {
+      "id": 4,
+      "artist": "Angela Luo",
+      "title": "Artwork 4",
+      "description": "Digital ink experience",
+      "filename": "",
+      "medium": "Mixed",
+      "year": 2025,
+      "category": "digital-ink"
     }
   ]
 }
