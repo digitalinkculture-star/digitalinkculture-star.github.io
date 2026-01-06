@@ -14,20 +14,20 @@
     {
       "id": 2,
       "artist": "Angela Luo",
-      "title": "",
-      "description": "",
+      "title": "Artwork 2",
+      "description": "print",
       "filename": "2321767507936_.pic_hd.jpg",
-      "medium": "",
+      "medium": "Paint",
       "year": 2024,
       "category": "other"
     },
     {
       "id": 3,
       "artist": "Angela Luo",
-      "title": "",
-      "description": "",
+      "title": "Artwork 3",
+      "description": "Digital ink experience",
       "filename": "2161767507878_.pic_hd.jpg",
-      "medium": "",
+      "medium": "Mixed",
       "year": 2025,
       "category": "Digital Ink"
     }
