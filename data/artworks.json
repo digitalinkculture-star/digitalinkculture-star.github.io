@@ -7,9 +7,9 @@
       "title": "Scream",
       "description": "Drew in the form of a comic",
       "filename": "2201767507887_.pic_hd.jpg",
-      "medium": "Ink",
+      "medium": "Paint",
       "year": 2025,
-      "category": "Mixed Media"
+      "category": "mixed-media"
     },
     {
       "id": 2,
@@ -29,7 +29,7 @@
       "filename": "2161767507878_.pic_hd.jpg",
       "medium": "Mixed",
       "year": 2025,
-      "category": "Digital Ink"
+      "category": "digital-ink"
     }
   ]
 }
