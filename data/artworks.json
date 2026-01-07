@@ -40,6 +40,16 @@
       "medium": "Mixed",
       "year": 2025,
       "category": "digital-ink"
+    },
+    {
+      "id": 5,
+      "artist": "May Wang",
+      "title": "Artwork 5",
+      "description": "Calligraphy work",
+      "filename": "",
+      "medium": "Mixed",
+      "year": 2025,
+      "category": "digital-ink"
     }
   ]
 }
