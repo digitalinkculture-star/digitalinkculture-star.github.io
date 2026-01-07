@@ -100,6 +100,16 @@
       "medium": "water color",
       "year": 2024,
       "category": "mixed-media"
-    }
+    },
+    {
+      "id": 11,
+      "artist": "Angela Luo",
+      "title": "Artwork 11",
+      "description": "Traditional Chinese painting",
+      "filename": "",
+      "medium": "Chinese pigment",
+      "year": 2025,
+      "category": "traditional"
+    },
   ]
 }
