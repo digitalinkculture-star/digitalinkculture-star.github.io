@@ -80,6 +80,16 @@
       "medium": "Ink",
       "year": 2025,
       "category": "traditional"
+    },
+    {
+      "id": 9,
+      "artist": "Angela Luo",
+      "title": "Artwork 9",
+      "description": "print",
+      "filename": "",
+      "medium": "Paint",
+      "year": 2024,
+      "category": "mixed-media"
     }
   ]
 }
