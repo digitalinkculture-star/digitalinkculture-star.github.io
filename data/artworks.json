@@ -111,5 +111,25 @@
       "year": 2025,
       "category": "traditional"
     },
+    {
+      "id": 12,
+      "artist": "Angela Luo",
+      "title": "Artwork 12",
+      "description": "Traditional Chinese painting",
+      "filename": "",
+      "medium": "Chinese pigment",
+      "year": 2025,
+      "category": "traditional"
+    },
+    {
+      "id": 13,
+      "artist": "Angela Luo",
+      "title": "Artwork 13",
+      "description": "Traditional Chinese painting",
+      "filename": "",
+      "medium": "Chinese pigment",
+      "year": 2025,
+      "category": "traditional"
+    }
   ]
 }
