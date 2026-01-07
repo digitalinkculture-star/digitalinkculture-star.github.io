@@ -150,6 +150,26 @@
       "medium": "Ink",
       "year": 2025,
       "category": "traditional"
+    },
+    {
+      "id": 16,
+      "artist": "May Wang",
+      "title": "Artwork 16",
+      "description": "Cultural Design",
+      "filename": "",
+      "medium": "Paint",
+      "year": 2025,
+      "category": "cultural-design"
+    },
+    {
+      "id": 17,
+      "artist": "May Wang",
+      "title": "Artwork 17",
+      "description": "Cultual Design",
+      "filename": "",
+      "medium": "Paint",
+      "year": 2025,
+      "category": "cultural-design"
     }
   ]
 }
