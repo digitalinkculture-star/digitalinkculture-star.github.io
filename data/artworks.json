@@ -70,6 +70,16 @@
       "medium": "Ink",
       "year": 2025,
       "category": "traditional"
+    },
+    {
+      "id": 8,
+      "artist": "May Wang",
+      "title": "Artwork 8",
+      "description": "Calligraphy work",
+      "filename": "",
+      "medium": "Ink",
+      "year": 2025,
+      "category": "traditional"
     }
   ]
 }
