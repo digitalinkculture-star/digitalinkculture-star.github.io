@@ -90,6 +90,16 @@
       "medium": "Paint",
       "year": 2024,
       "category": "mixed-media"
+    },
+    {
+      "id": 10,
+      "artist": "Angela Luo",
+      "title": "Artwork 10",
+      "description": "water color",
+      "filename": "",
+      "medium": "water color",
+      "year": 2024,
+      "category": "mixed-media"
     }
   ]
 }
