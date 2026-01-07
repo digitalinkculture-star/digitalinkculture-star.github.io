@@ -130,6 +130,26 @@
       "medium": "Chinese pigment",
       "year": 2025,
       "category": "traditional"
+    },
+    {
+      "id": 14,
+      "artist": "May Wang",
+      "title": "Artwork 14",
+      "description": "Calligraphy work",
+      "filename": "",
+      "medium": "Ink",
+      "year": 2025,
+      "category": "traditional"
+    },
+    {
+      "id": 15,
+      "artist": "May Wang",
+      "title": "Artwork 15",
+      "description": "Calligraphy work",
+      "filename": "",
+      "medium": "Ink",
+      "year": 2025,
+      "category": "traditional"
     }
   ]
 }
