@@ -51,5 +51,15 @@
       "year": 2025,
       "category": "traditional"
     }
+    {
+      "id": 6,
+      "artist": "May Wang",
+      "title": "Artwork 6",
+      "description": "Calligraphy work",
+      "filename": "WechatIMG3889.jpg",
+      "medium": "Ink",
+      "year": 2025,
+      "category": "traditional"
+    }
   ]
 }
